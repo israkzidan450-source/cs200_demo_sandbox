@@ -31,3 +31,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    def problem1(s):
+    dct = {}
+
+    for letter in s:
+        if letter in dct:
+            dct[letter] += 1
+        else:
+            dct[letter] = 1
+    return dct
+print(problem1('Hello'))
+
+    
+    
