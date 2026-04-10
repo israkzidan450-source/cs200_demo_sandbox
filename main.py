@@ -7,8 +7,10 @@ def func1():
         x = int(input('num:'))
     return new_func(lst)
 
+
 def new_func(lst):
     return lst
+
 
 def func2(data):
     print('Here is the data:')
@@ -18,7 +20,7 @@ def func2(data):
     while True:
         option = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if option == '1':
-            print('The sum is',sum(data))
+            print('The sum is', sum(data))
         elif option == '2':
             print('Not supported yet')
         elif option == '3':
@@ -27,27 +29,27 @@ def func2(data):
             print('Goodbye')
             return
 
+
 def main():
     print("Hello, Mom")
     data = func1()
     func2(data)
 
+
 if __name__ == "__main__":
     main()
 
     def problem1(s):
-    dct = {}
+        dct = {}
 
-    for letter in s:
-        if letter in dct:
-            dct[letter] += 1
-        else:
-            dct[letter] = 1
-    return dct
+        for letter in s:
+            if letter in dct:
+                dct[letter] += 1
+            else:
+                dct[letter] = 1
+        return dct
 print(problem1('Hello'))
 
-def foo(x,y):
-    return (x*y) + 1
-import pytest_lazyfixture
-    
 
+def foo(x, y):
+    return (x*y) + 1
