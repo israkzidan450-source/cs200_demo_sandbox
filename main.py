@@ -46,5 +46,8 @@ if __name__ == "__main__":
     return dct
 print(problem1('Hello'))
 
+def foo(x,y):
+    return (x*y) + 1
+import pytest_lazyfixture
     
-    
+
