@@ -1,3 +1,11 @@
+def foo(x, y):
+    return (x*y) + 1
+
+
+def bar(x, y):
+    return (x**y) - 1
+
+
 def func1():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')
@@ -5,11 +13,8 @@ def func1():
     while x != 0:
         lst.append(x)
         x = int(input('num:'))
-    return new_func(lst)
-
-
-def new_func(lst):
     return lst
+
 
 
 def func2(data):
@@ -39,17 +44,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-    def problem1(s):
-        dct = {}
 
-        for letter in s:
-            if letter in dct:
-                dct[letter] += 1
-            else:
-                dct[letter] = 1
-        return dct
-print(problem1('Hello'))
-
-
-def foo(x, y):
-    return (x*y) + 1
